@@ -83,6 +83,7 @@ test:
 #
 production:
   primary: &primary_production
+    url: <%= ENV['DATABASE_URL'] %>
     <<: *default
     database: test_app_production
     username: test_app
