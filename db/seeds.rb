@@ -16,7 +16,7 @@
 #   {title: "Introduction to Computer Science"},
 #   {title: "Where is my phone charger?"}
 # ])
-
+Book.destroy_all
 # DEV ENV
 Book.create!([
   {title: "Story of Myself"},
