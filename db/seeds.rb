@@ -7,10 +7,21 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# TEST ENV
+# Book.create!([
+#   {title: "The Life of a turtle"},
+#   {title: "I like dubai chocolates"},
+#   {title: "Starry Night"},
+#   {title: "Introduction to Computer Science"},
+#   {title: "Where is my phone charger?"}
+# ])
+
+# DEV ENV
 Book.create!([
-  {title: "The Life of a turtle"},
-  {title: "I like dubai chocolates"},
-  {title: "Starry Night"},
-  {title: "Introduction to Computer Science"},
-  {title: "Where is my phone charger?"}
+  {title: "Story of Myself"},
+  {title: "I like listening to msics"},
+  {title: "What should I wear today"},
+  {title: "I want to see some snow in Texas"},
+  {title: "AHHHH!"}
 ])
